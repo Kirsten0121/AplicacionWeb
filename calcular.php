@@ -17,6 +17,7 @@ echo "El precio total a pagar es: ".$total."<br>";
 echo "El monto por flete es: ".$flete."<br>";
 echo "El descuento aplicado fue: ".$descuento;
 $edad = 24;
+
 switch($edad)
 {
     case 12:
@@ -29,7 +30,7 @@ switch($edad)
         echo "El doble de tu edad";
         break;
     default:
-    echo:"Ninguna de las anteriores";
+        echo:"Ninguna de las anteriores";
 }
 
 ?>
